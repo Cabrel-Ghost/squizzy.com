@@ -55,7 +55,7 @@ h1{
 }
 img{
     height:200px ;
-    width:auto ;
+    width:70% ;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow:1px 6px 15px rgb(0, 0, 0, 0.18);
