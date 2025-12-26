@@ -52,10 +52,10 @@ dot.onclick=function(){
     btntwo.onchange=function(){
         if(btntwo.checked){
             body.style.backgroundColor="white";
-            searchbar.style.backgroundColor="white";
+            searchbar.style.backgroundColor="rgba(241, 234, 241, 1)";
             input.style.color="black";
             boxs.forEach(function(allbox){
-                allbox.style.cssText= "background-color:rgb(250,245,250);";
+                allbox.style.cssText= "background-color:rgba(241, 234, 241, 1);";
                 
             })
             boxctns.forEach(function(allboxctn){
