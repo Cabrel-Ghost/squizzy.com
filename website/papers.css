@@ -35,6 +35,8 @@ input{
 h1{
     text-align: center;
     color: white;
+    margin-top: 0;
+    margin-bottom:30px
 }
 .boxctn{
     display: flex;
@@ -53,7 +55,7 @@ h1{
     background-color: rgb(19, 16, 16);
    
 }
-img{
+.boxctn img{
     height:200px ;
     width:70% ;
     border-top-right-radius: 10%;

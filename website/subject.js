@@ -23,9 +23,11 @@
                                             clearInterval(range);
                                             spinner.style.animation="none"
                                             loadingpage.style.display="none"
+                                             window.location.href = "pdf.html";
                                         }
-                                    },15)
+                                    },20)
                             valid = false;
+                            
                         }
                         else if(paperinput==null){
                             valid=false;
